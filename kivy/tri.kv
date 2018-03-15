@@ -1,0 +1,28 @@
+<tric>:
+	canvas:
+		Color:
+			rgba : 0,0,1,0.1
+		#Line:
+			#rectangle:0,self.height/3,self.width,self.height
+			#width: 
+		#Rectangle:
+			#pos: 0,self.height/3
+			#size:self.width,2*self.height/3
+		
+	Label:
+		color:0,0,1,1
+		font_size: 20  
+		center_x: root.width / 2
+		top: root.top - 20
+		text: str("Perimeter: ")
+		
+	Label:
+		color:0,0,1,1
+		font_size: 20  
+		center_x: root.width * 5 / 6
+		top: root.top - 20
+		text: str(root.perimeter)
+		
+	
+
+
